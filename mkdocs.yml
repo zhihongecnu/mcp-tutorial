@@ -1,16 +1,26 @@
 site_name: MCP教程
+site_description: MCP(Message Control Protocol)教程文档，包含基础概念、使用方法和最佳实践
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+    - scheme: slate
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+
+plugins:
+  - search
+  - mkdocstrings
+
 nav:
   - 首页: index.md
   - 快速开始: getting-started.md
-theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - toc.integrate
-markdown_extensions:
-  - admonition
-  - codehilite
-  - toc:
-      permalink: true
