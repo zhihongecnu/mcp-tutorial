@@ -1,0 +1,16 @@
+site_name: MCP教程
+nav:
+  - 首页: index.md
+  - 快速开始: getting-started.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - toc.integrate
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
